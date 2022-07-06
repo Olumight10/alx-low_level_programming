@@ -5,14 +5,10 @@
 
 
 /**
-
- * main - Entry point
-
- * Description: prints '_putchar'
-
- * Return: return 0 (success)
-
- */
+* main - Entry point
+* Description: prints '_putchar'
+* Return: return 0 (success)
+*/
 
 
 
