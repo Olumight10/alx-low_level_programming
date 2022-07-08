@@ -2,12 +2,12 @@
 
 #include <stdio.h>
 
-/*
- * main - Fizz-Buzz test
- * Description: print numbers 1 -100 replacing multiples of 3 with Fizz,
- * multiples of 5 with Buzz, and multiples of both with FizzBuzz
- * Return: zero
- */
+/**
+* main - Fizz-Buzz test
+* Description: print numbers 1 -100 replacing multiples of 3 with Fizz,
+* multiples of 5 with Buzz, and multiples of both with FizzBuzz
+* Return: zero
+*/
 int main(void)
 {
 
