@@ -42,11 +42,11 @@ int main(void)
 
 		k++;
 
-		printf("%c", i);
+		putchar("%c", i);
 
 	}
 
-	printf("%c\n", (2772 - j));
+	putchar("%c\n", (2772 - j));
 
 	return (0);
 
