@@ -1,35 +1,26 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_number - prints a number
- * @n: Input number
- */
+* print_number - prints an integer
+* @n: integer
+**/
 
 void print_number(int n)
 {
-	int res, temp, expo;
+	unsigned int num;
 
-	expo = 1;
-/*Check negatives*/
-	if (n >= 0)
-		res = n * -1;
-	else
+	if (n < 0)
 	{
-		res = n;
+		num = -n;
 		_putchar('-');
 	}
+	else
+		num = n;
 
-/*Initialize exponent variable*/
-	temp = res;
-	while (temp <= -10)
+	if (num > 9)
 	{
-		expo *= 10;
-		temp /= 10;
+		print_number(num / 10);
 	}
-/*Main */
-	while (expo >= 1)
-	{
-		_putchar(((res / expo) % 10) * -1 + '0');
-		expo /= 10;
-	}
+	_putchar(num % 10 + '0');
 }
